@@ -1,6 +1,6 @@
 {
   "name": "@tubealfred/mcp",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "TubeAlfred YouTube MCP server. Stdio bridge to the hosted streamable-HTTP MCP at mcp.tubealfred.com — install in Claude Desktop, Cursor, Continue, or any MCP client.",
   "license": "MIT",
   "type": "module",

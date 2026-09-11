@@ -6,11 +6,12 @@ const readJson = async (path) => JSON.parse(await readFile(path, 'utf8'));
 
 test('publishes a conforming Agent Plugins manifest', async () => {
   const manifest = await readJson(new URL('../plugin.json', import.meta.url));
+  const packageJson = await readJson(new URL('../package.json', import.meta.url));
 
   assert.deepEqual(manifest, {
     $schema: 'https://agent-plugins.org/schemas/1.0.0/plugin.schema.json',
     name: 'tubealfred-youtube',
-    version: '0.1.12',
+    version: packageJson.version,
     description: 'Read-only YouTube research for agents through TubeAlfred MCP, with focused video, audience, and discovery skills.',
     author: {
       name: 'TubeAlfred',
