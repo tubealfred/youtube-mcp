@@ -12,16 +12,16 @@ test('publishes a conforming Agent Plugins manifest', async () => {
     $schema: 'https://agent-plugins.org/schemas/1.0.0/plugin.schema.json',
     name: 'tubealfred-youtube',
     version: packageJson.version,
-    description: 'Read-only YouTube research for agents through TubeAlfred MCP, with focused video, audience, and discovery skills.',
+    description: packageJson.description,
     author: {
       name: 'TubeAlfred',
       email: 'contact@tubealfred.com',
       url: 'https://tubealfred.com',
     },
-    homepage: 'https://tubealfred.com/mcp',
+    homepage: 'https://tubealfred.com',
     repository: 'https://github.com/tubealfred/mcp',
     license: 'MIT',
-    keywords: ['youtube', 'mcp', 'agents', 'transcripts', 'comments', 'research'],
+    keywords: ['youtube', 'mcp', 'agents', 'transcripts', 'youtube-transcript', 'youtube-comments', 'claude', 'chatgpt', 'cursor', 'comments', 'research'],
   });
 });
 

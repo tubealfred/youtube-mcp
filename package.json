@@ -1,7 +1,7 @@
 {
   "name": "@tubealfred/mcp",
   "version": "0.1.13",
-  "description": "TubeAlfred YouTube MCP server. Stdio bridge to the hosted streamable-HTTP MCP at mcp.tubealfred.com — install in Claude Desktop, Cursor, Continue, or any MCP client.",
+  "description": "Bring YouTube transcripts, comments and channel data into Claude, ChatGPT and Cursor. No YouTube API key required.",
   "license": "MIT",
   "type": "module",
   "packageManager": "pnpm@10.12.1",
@@ -28,14 +28,22 @@
     "prepublishOnly": "pnpm build"
   },
   "keywords": [
-    "mcp",
-    "model-context-protocol",
     "youtube",
-    "tubealfred",
+    "mcp",
+    "mcp-server",
+    "youtube-transcript",
+    "transcript",
+    "youtube-comments",
     "claude",
-    "cursor"
+    "chatgpt",
+    "cursor",
+    "claude-code",
+    "channel-analytics",
+    "no-youtube-api-key",
+    "model-context-protocol",
+    "tubealfred"
   ],
-  "homepage": "https://tubealfred.com/mcp",
+  "homepage": "https://tubealfred.com",
   "bugs": {
     "url": "https://github.com/tubealfred/mcp/issues"
   },
