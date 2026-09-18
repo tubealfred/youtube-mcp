@@ -16,7 +16,7 @@ After connecting TubeAlfred, try:
 
 TubeAlfred is a hosted YouTube MCP server for Claude, ChatGPT, Cursor, Claude Code, and other compatible MCP clients. Retrieve available YouTube transcripts with timestamps, language metadata, and automatic or manual caption tracks. List a channel's videos and retrieve their available transcripts, or explore comments & replies, channel videos/shorts/streams, YouTube search, video details, playlists, and trending. **34 read-only tools.**
 
-Connect Claude in 30 seconds — paste the remote MCP URL or find TubeAlfred in Claude's connector directory, then sign in. No YouTube API key required. No YouTube Data API quota to manage. **100 free credits on signup. Most successful tool calls cost 1 credit.**
+Connect Claude in 30 seconds — paste the remote MCP URL or find TubeAlfred in Claude's connector directory, then sign in. No YouTube API key required. No YouTube Data API quota to manage. **50 free credits on signup, valid for 14 days. Most successful tool calls cost 1 credit.**
 
 ## Connection options
 
