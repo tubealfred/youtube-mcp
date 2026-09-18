@@ -1,6 +1,6 @@
 {
   "name": "@tubealfred/mcp",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Bring YouTube transcripts, comments and channel data into Claude, ChatGPT and Cursor. No YouTube API key required.",
   "license": "MIT",
   "type": "module",
