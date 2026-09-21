@@ -62,8 +62,8 @@ async function main() {
 
   await writeFile(updatesFile, `${JSON.stringify({
     latest_version: packageJson.version,
-    download_url: `https://github.com/tubealfred/mcp/releases/download/v${packageJson.version}/tubealfred-youtube.mcpb`,
-    release_notes: `https://github.com/tubealfred/mcp/releases/tag/v${packageJson.version}`,
+    download_url: `https://github.com/tubealfred/youtube-mcp/releases/download/v${packageJson.version}/tubealfred-youtube.mcpb`,
+    release_notes: `https://github.com/tubealfred/youtube-mcp/releases/tag/v${packageJson.version}`,
   }, null, 2)}\n`);
   process.stdout.write(`Built ${updatesFile}\n`);
 }

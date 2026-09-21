@@ -19,7 +19,7 @@ test('publishes a conforming Agent Plugins manifest', async () => {
       url: 'https://tubealfred.com',
     },
     homepage: 'https://tubealfred.com',
-    repository: 'https://github.com/tubealfred/mcp',
+    repository: 'https://github.com/tubealfred/youtube-mcp',
     license: 'MIT',
     keywords: ['youtube', 'mcp', 'agents', 'transcripts', 'youtube-transcript', 'youtube-comments', 'claude', 'chatgpt', 'cursor', 'comments', 'research'],
   });

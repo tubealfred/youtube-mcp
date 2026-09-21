@@ -37,7 +37,7 @@ Coding agents and contributors should read [`AGENTS.md`](./AGENTS.md) before cha
 
 Download the latest Desktop Extension:
 
-<https://github.com/tubealfred/mcp/releases/latest/download/tubealfred-youtube.mcpb>
+<https://github.com/tubealfred/youtube-mcp/releases/latest/download/tubealfred-youtube.mcpb>
 
 Double-click `tubealfred-youtube.mcpb`, approve the Claude Desktop install prompt, then paste your TubeAlfred API key when prompted. Use this option if you prefer the API-key desktop extension.
 

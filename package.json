@@ -45,11 +45,11 @@
   ],
   "homepage": "https://tubealfred.com",
   "bugs": {
-    "url": "https://github.com/tubealfred/mcp/issues"
+    "url": "https://github.com/tubealfred/youtube-mcp/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tubealfred/mcp.git"
+    "url": "https://github.com/tubealfred/youtube-mcp.git"
   },
   "publishConfig": {
     "access": "public"
