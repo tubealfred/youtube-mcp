@@ -27,7 +27,7 @@ The bridge uses the same TubeAlfred API key as the [REST API](https://tubealfred
 
 ## Agent Plugin
 
-This repository is also a portable [Agent Plugin](https://agent-plugins.org/specification). Import or clone the repository root in a compatible client: [`plugin.json`](./plugin.json) identifies the plugin, [`mcp.json`](./mcp.json) connects the hosted Streamable HTTP server, and [`skills/`](./skills/) contains focused video, audience, and discovery research workflows.
+This repository is also a portable [Agent Plugin](https://agent-plugins.org/specification). Import or clone the repository root in a compatible client: [`plugin.json`](./plugin.json) identifies the plugin, [`mcp.json`](./mcp.json) connects the hosted Streamable HTTP server, and [`skills/`](./skills/) contains focused video, audience, and discovery research workflows. Cursor reads [`.cursor-plugin/plugin.json`](./.cursor-plugin/plugin.json) for its Marketplace listing.
 
 Coding agents and contributors should read [`AGENTS.md`](./AGENTS.md) before changing generated contracts, tool metadata, or release files.
 

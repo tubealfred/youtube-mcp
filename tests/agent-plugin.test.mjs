@@ -34,6 +34,7 @@ test('includes the Agent Plugin bundle in the npm package', async () => {
     'LICENSE',
     'AGENTS.md',
     'plugin.json',
+    '.cursor-plugin',
     'mcp.json',
     'skills',
   ]);
@@ -89,4 +90,18 @@ test('publishes coding-agent rules and links plugin installation from the readme
   assert.match(readme, /Agent Plugin/);
   assert.match(readme, /plugin\.json/);
   assert.match(readme, /AGENTS\.md/);
+});
+
+test('publishes a Cursor Marketplace manifest for the hosted server and skills', async () => {
+  const manifest = await readJson(new URL('../.cursor-plugin/plugin.json', import.meta.url));
+  const packageJson = await readJson(new URL('../package.json', import.meta.url));
+
+  assert.equal(manifest.name, 'tubealfred-youtube');
+  assert.match(manifest.name, /^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$/);
+  assert.equal(manifest.version, packageJson.version);
+  assert.equal(manifest.description, 'TubeAlfred brings YouTube transcripts, comments and channel data into Cursor. No YouTube API key required.');
+  assert.deepEqual(manifest.author, { name: 'TubeAlfred', email: 'contact@tubealfred.com' });
+  assert.equal(manifest.skills, 'skills/');
+  assert.deepEqual(manifest.mcpServers, { 'tubealfred-youtube': { url: 'https://mcp.tubealfred.com/' } });
+  await readFile(new URL(`../${manifest.logo}`, import.meta.url));
 });

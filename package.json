@@ -15,6 +15,7 @@
     "LICENSE",
     "AGENTS.md",
     "plugin.json",
+    ".cursor-plugin",
     "mcp.json",
     "skills"
   ],

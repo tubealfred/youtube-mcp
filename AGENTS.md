@@ -38,6 +38,7 @@ Run `pnpm build:mcpb` when changing MCPB metadata or packaged files. Tests must 
 
 - `plugin.json` is the Agent Plugins 1.0 manifest.
 - `mcp.json` declares the hosted Streamable HTTP MCP server.
+- `.cursor-plugin/plugin.json` is the Cursor Marketplace manifest; keep its version in step with `package.json`.
 - `skills/*/SKILL.md` contains focused, read-only workflow instructions.
 - `src/` contains the stdio bridge implementation.
 
