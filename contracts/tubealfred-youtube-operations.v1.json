@@ -2069,7 +2069,7 @@
       "path": "/v1/youtube/video/{video_id}/comments",
       "summary": "Video comments",
       "description": "Fetch the first YouTube comments page through TubeAlfred.",
-      "credit_cost": "0 credits when empty; otherwise 1 credit per 5 comments (100 comment minimum, ≥ 20 credits per call)",
+      "credit_cost": "0 credits when empty; otherwise 1 credit per 5 comments (25 comment minimum, ≥ 5 credits per call)",
       "deprecated": false,
       "parameters": [
         {
@@ -2173,7 +2173,7 @@
       "path": "/v1/youtube/video/{video_id}/comments/page",
       "summary": "Video comments page",
       "description": "Fetch a paginated YouTube comments page through TubeAlfred.",
-      "credit_cost": "0 credits when empty; otherwise 1 credit per 5 comments (100 comment minimum, ≥ 20 credits per call)",
+      "credit_cost": "0 credits when empty; otherwise 1 credit per 5 comments (25 comment minimum, ≥ 5 credits per call)",
       "deprecated": false,
       "parameters": [
         {
@@ -2279,7 +2279,7 @@
       "path": "/v1/youtube/video/{video_id}/comments/{comment_id}/replies",
       "summary": "Comment replies",
       "description": "Fetch the first YouTube comment replies page through TubeAlfred.",
-      "credit_cost": "0 credits when empty; otherwise 1 credit per 5 comments (100 comment minimum, ≥ 20 credits per call)",
+      "credit_cost": "0 credits when empty; otherwise 1 credit per 5 comments (25 comment minimum, ≥ 5 credits per call)",
       "deprecated": false,
       "parameters": [
         {
@@ -2398,7 +2398,7 @@
       "path": "/v1/youtube/video/{video_id}/comments/{comment_id}/replies/page",
       "summary": "Comment replies page",
       "description": "Fetch a paginated YouTube comment replies page through TubeAlfred.",
-      "credit_cost": "0 credits when empty; otherwise 1 credit per 5 comments (100 comment minimum, ≥ 20 credits per call)",
+      "credit_cost": "0 credits when empty; otherwise 1 credit per 5 comments (25 comment minimum, ≥ 5 credits per call)",
       "deprecated": false,
       "parameters": [
         {
