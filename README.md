@@ -8,6 +8,10 @@ Paste this into **Claude → Settings → Connectors → Add custom connector**,
 
 [TubeAlfred](https://tubealfred.com) brings YouTube transcripts, comments and channel data into Claude, ChatGPT and Cursor. No YouTube API key required.
 
+## Credits
+
+Free accounts start with 50 credits. The free allowance resets to 50 each month on your signup anniversary; unused free credits do not roll over. Resets affect only the free allowance. No credit card required. See the [current pricing and credits](https://tubealfred.com/pricing.md) for plan and usage details.
+
 ## Get a YouTube transcript in Claude
 
 After connecting TubeAlfred, try:
@@ -16,7 +20,7 @@ After connecting TubeAlfred, try:
 
 TubeAlfred is a hosted YouTube MCP server for Claude, ChatGPT, Cursor, Claude Code, and other compatible MCP clients. Retrieve available YouTube transcripts with timestamps, language metadata, and automatic or manual caption tracks. List a channel's videos and retrieve their available transcripts, or explore comments & replies, channel videos/shorts/streams, YouTube search, video details, playlists, and trending. **34 read-only tools.**
 
-Connect Claude in 30 seconds — paste the remote MCP URL or find TubeAlfred in Claude's connector directory, then sign in. No YouTube API key required. No YouTube Data API quota to manage. **50 free credits on signup, valid for 14 days. Most successful tool calls cost 1 credit.**
+Connect Claude in 30 seconds — paste the remote MCP URL or find TubeAlfred in Claude's connector directory, then sign in. No YouTube API key required. No YouTube Data API quota to manage. **Free accounts reset to 50 credits every month on their signup anniversary. Unused free credits do not roll over. Most successful tool calls cost 1 credit.**
 
 ## Connection options
 

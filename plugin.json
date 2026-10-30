@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "tubealfred-youtube",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "Bring YouTube transcripts, comments and channel data into Claude, ChatGPT and Cursor. No YouTube API key required.",
   "author": {
     "name": "TubeAlfred",

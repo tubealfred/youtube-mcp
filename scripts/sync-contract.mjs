@@ -36,7 +36,7 @@ const toolList = publicTools.length < 2
   ? (finalTool ?? "")
   : `${publicTools.slice(0, -1).join(", ")}, and ${finalTool}`;
 const manifest = JSON.parse(await readFile(MCPB_MANIFEST_PATH, "utf8"));
-manifest.long_description = `TubeAlfred exposes ${publicTools.length} read-only YouTube research tools through one hosted MCP server: ${toolList}. Install this extension, paste your API key, and the tools appear in Claude Desktop's tool list.\n\nCredits: 1 per call for most endpoints. Empty transcripts and comment results are free. Batch calls charge per resolved item; non-empty comment responses meter at 1 credit per 20 comments with a 100-comment minimum.`;
+manifest.long_description = `TubeAlfred exposes ${publicTools.length} read-only YouTube research tools through one hosted MCP server: ${toolList}. Install this extension, paste your API key, and the tools appear in Claude Desktop's tool list.\n\nCredits: 1 per call for most endpoints. Empty transcripts and comment results are free. Batch calls charge per resolved item; non-empty comment responses meter at 1 credit per 20 comments with a 100-comment minimum.\n\nFree accounts start with 50 credits. The free allowance resets to 50 each month on your signup anniversary; unused free credits do not roll over. Resets affect only the free allowance. No credit card required. See https://tubealfred.com/pricing.md for current pricing and credits.`;
 
 const readme = await readFile(README_PATH, "utf8");
 const startMarker = "<!-- public-tools:start -->";
