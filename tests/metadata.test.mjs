@@ -17,6 +17,8 @@ assert.equal(contract.manifest_version, "1.1.0");
 assert.equal(publicTools.length, 34);
 assert.match(manifest.long_description, /34 read-only YouTube research tools/);
 assert.match(readme, /versioned operation manifest/);
+assert.match(manifest.long_description, /resets to 50 each month on your signup anniversary/);
+assert.match(manifest.long_description, /unused free credits do not roll over/);
 assert.doesNotMatch(manifest.long_description, /youtube_video_transcript_full/);
 
 for (const tool of publicTools) {
