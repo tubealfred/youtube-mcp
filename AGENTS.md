@@ -23,7 +23,7 @@ Generated operation metadata in `contracts/` must stay synchronized with the aut
 
 ## Development workflow
 
-Use Node.js 18 or newer and pnpm 10.
+The packaged bridge supports Node.js 18 or newer. Use Node.js 20 or newer and pnpm 10 to build, test, and package it; the build dependencies include server adapters that require Node.js 20.
 
 ```bash
 pnpm install
