@@ -3,7 +3,7 @@ import { copyFile, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
-import archiver from "archiver";
+import { ZipArchive } from "archiver";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const repoRoot = resolve(here, "..");
@@ -38,6 +38,7 @@ async function main() {
 
   await mkdir(resolve(staging, "server"), { recursive: true });
   await copyFile(stdioDist, resolve(staging, "server", "index.js"));
+  await writeFile(resolve(staging, "server", "package.json"), '{"type":"module"}\n');
 
   const packageJson = JSON.parse(await readFile(resolve(repoRoot, "package.json"), "utf8"));
   const manifest = JSON.parse(await readFile(resolve(here, "manifest.json"), "utf8"));
@@ -49,7 +50,7 @@ async function main() {
 
   await new Promise((resolvePromise, rejectPromise) => {
     const output = createWriteStream(outputFile);
-    const archive = archiver("zip", { zlib: { level: 9 } });
+    const archive = new ZipArchive({ zlib: { level: 9 } });
     output.on("close", resolvePromise);
     output.on("error", rejectPromise);
     archive.on("error", rejectPromise);
